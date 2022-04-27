@@ -1,0 +1,17 @@
+.contenedor {
+  background-color: red;
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .contenedor {
+    background-color: green;
+    width: 900px;
+    height: 500px;
+  }
+}
